@@ -1,5 +1,6 @@
 import 'package:belajar_flutter/Day%205/Column.dart';
 import 'package:belajar_flutter/Day%205/Row.dart';
+import 'package:belajar_flutter/Day%205/gambar.dart';
 import 'package:flutter/material.dart';
 
 class Latihan extends StatelessWidget {
@@ -14,7 +15,7 @@ class Latihan extends StatelessWidget {
         title: Text("Profil Saya"),
         centerTitle: true,
       ), //appBar akhir
-      body: Column(children: [ColumnDay5(), RowDay5()]),
+      body: Column(children: [ColumnDay5(), RowDay5(), Gambar()]),
     );
   }
 }
