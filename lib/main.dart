@@ -1,6 +1,4 @@
-import 'package:belajar_flutter/Day%205/Row.dart';
-import 'package:belajar_flutter/Day%205/Scaffold.dart';
-import 'package:belajar_flutter/Day%205/gambar.dart';
+import 'package:belajar_flutter/DAY%207/homePage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -33,7 +31,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home : Latihan()
+      home : Homepage()
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
