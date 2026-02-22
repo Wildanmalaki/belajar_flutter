@@ -1,4 +1,5 @@
 import 'package:belajar_flutter/Tugas_6_FlutterB5/login_page.dart';
+import 'package:belajar_flutter/Tugas_6_FlutterB5/login_page_bucin.dart';
 import 'package:flutter/material.dart';
 
 class StartPage extends StatefulWidget {

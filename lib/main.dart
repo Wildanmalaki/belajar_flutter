@@ -1,4 +1,5 @@
 import 'package:belajar_flutter/Tugas_6_FlutterB5/login_page.dart';
+import 'package:belajar_flutter/Tugas_6_FlutterB5/startPage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home : LoginMyField()
+      home : StartPage()
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
