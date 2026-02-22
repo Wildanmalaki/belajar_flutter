@@ -1,5 +1,4 @@
-import 'package:belajar_flutter/DAY%207/homePage.dart';
-import 'package:belajar_flutter/Tugas%205/Tugas5.dart';
+import 'package:belajar_flutter/Tugas_6_FlutterB5/login_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home : Tugas5Flutter()
+      home : LoginMyField()
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
