@@ -1,5 +1,8 @@
+import 'package:belajar_flutter/Tugas_4/homePage.dart';
 import 'package:belajar_flutter/Tugas_6_FlutterB5/login_page.dart';
 import 'package:belajar_flutter/Tugas_6_FlutterB5/startPage.dart';
+import 'package:belajar_flutter/tugas_3/Homepage2.dart';
+import 'package:belajar_flutter/tugas_3/homePage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -33,7 +36,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home : StartPage()
+      home : TugasPage3()
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
