@@ -11,12 +11,9 @@ class Homepage extends StatelessWidget {
       backgroundColor: Color(0xff007E6E),
       title: Text("Informasi Pengguna"), 
       centerTitle: true,
-      
-      
       ), 
 
       // Body 
-
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         
@@ -69,7 +66,6 @@ class Homepage extends StatelessWidget {
                   Text("Hobi : Ngoding"),
                 ],
               ),
-              
                 ],
 
               ),

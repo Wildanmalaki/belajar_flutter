@@ -6,12 +6,22 @@ class firstPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Color(0xff519A66),
+      ),
+
       body: SizedBox(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Image.asset("assets/images/homepage.jpg")
-          ],
+            Image.asset("assets/images/homepage.jpg"),
+
+            // ElevatedButton(
+            //   onPressed: () {
+            //     navigator.pop
+            //   }           
+            //    )
+          ]
         ),
       ),
     );
