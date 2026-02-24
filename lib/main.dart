@@ -1,6 +1,13 @@
 import 'package:belajar_flutter/Tugas_4/homePage.dart';
 import 'package:belajar_flutter/Tugas_6_FlutterB5/login_page.dart';
 import 'package:belajar_flutter/Tugas_6_FlutterB5/startPage.dart';
+import 'package:belajar_flutter/Tugas_7/Soal_no_1.dart';
+import 'package:belajar_flutter/Tugas_7/Soal_no_2.dart';
+import 'package:belajar_flutter/Tugas_7/Soal_no_3.dart';
+import 'package:belajar_flutter/Tugas_7/Soal_no_4.dart';
+import 'package:belajar_flutter/Tugas_7/buttombar.dart';
+import 'package:belajar_flutter/Tugas_7/drawerpage.dart';
+import 'package:belajar_flutter/Tugas_7/soal_no_5.dart';
 import 'package:belajar_flutter/tugas_3/Homepage2.dart';
 import 'package:belajar_flutter/tugas_3/homePage.dart';
 import 'package:flutter/material.dart';
@@ -36,7 +43,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home : TugasPage3()
+      home : ButtomBar()
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
