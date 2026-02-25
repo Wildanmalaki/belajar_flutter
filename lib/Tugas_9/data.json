@@ -1,0 +1,43 @@
+[
+    {
+        "Nama Lapangan" : "Pancoran Soccer Field",
+        "Jenis Lapangan" : "Lapangan bola",
+        "Waktu" : "Malam"
+    },
+    {
+        "Nama Lapangan" : "SR32 Minisoccer SetiaBudi",
+        "Jenis Lapangan" : "Lapangan Minisoccer",
+        "Waktu" : "Sore"
+    },
+    {
+        "Nama Lapangan" : "Cilandak Futsal Arena",
+
+        "Jenis Lapangan" : "Lapangan Futsal",
+        "Waktu" : "Pagi"
+    },
+    {
+        "Nama Lapangan" : "Kemang Sport Center",
+        "Jenis Lapangan" : "Lapangan Basket",
+        "Waktu" : "Malam"
+    },
+    {
+        "Nama Lapangan" : "Tebet Badminton Hall",
+        "Jenis Lapangan" : "Lapangan Badminton",
+        "Waktu" : "Siang"
+    },
+    {
+        "Nama Lapangan" : "Senayan Tennis Court",
+        "Jenis Lapangan" : "Lapangan Tenis",
+        "Waktu" : "Sore"
+    },
+    {
+        "Nama Lapangan" : "Bintaro Minisoccer Arena",
+        "Jenis Lapangan" : "Lapangan Minisoccer",
+        "Waktu" : "Malam"
+    },
+    {
+        "Nama Lapangan" : "Jagakarsa Futsal Center",
+        "Jenis Lapangan" : "Lapangan Futsal",
+        "Waktu" : "Sore"
+    }
+]
