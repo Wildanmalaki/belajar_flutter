@@ -50,13 +50,14 @@ class _DrawerpageState extends State<Drawerpage> {
 
             const DrawerHeader(
               decoration: BoxDecoration(
-                color: Colors.cyan,
+                color: Colors.amber,
               ),
               child: Text(
-                'Navigation Menu',
+                'MyField',
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: 24,
+                  fontSize: 34,
+                  fontWeight: FontWeight.bold
                 ),
               ),
             ),

@@ -11,26 +11,36 @@ class ButtomBar extends StatefulWidget {
 
 class _ButtomBarState extends State<ButtomBar> {
   int _selectectedIndex = 0;
-  List<Widget> _widgetOptions = [Drawerpage(), Tentangaplikasi()];
+  
+  
+  final List<Widget> _widgetOptions = [
+    const Drawerpage(), 
+    const Tentangaplikasi(),
+  ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: BottomNavigationBar(items: [
-        BottomNavigationBarItem(icon: Icon(Icons.home)),
-        BottomNavigationBarItem(icon: Icon(Icons.info))
-
-      ],
-      onTap: (value) {
-      setState(() {
-        _selectectedIndex = value;
-      });
-      },
-      currentIndex: _selectectedIndex,
+      body: _widgetOptions[_selectectedIndex],
+      
+      bottomNavigationBar: BottomNavigationBar(
+        currentIndex: _selectectedIndex,
+        onTap: (value) {
+          setState(() {
+            _selectectedIndex = value;
+          });
+        },
+        items: const [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: 'Beranda', 
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.info),
+            label: 'Tentang kami', 
+          ),
+        ],
       ),
-
-      body : _widgetOptions[_selectectedIndex]
-
     );
   }
 }
