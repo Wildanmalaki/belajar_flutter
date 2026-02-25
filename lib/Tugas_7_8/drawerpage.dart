@@ -1,8 +1,8 @@
-import 'package:belajar_flutter/Tugas_7/Soal_no_1.dart';
-import 'package:belajar_flutter/Tugas_7/Soal_no_2.dart';
-import 'package:belajar_flutter/Tugas_7/Soal_no_3.dart';
-import 'package:belajar_flutter/Tugas_7/Soal_no_4.dart';
-import 'package:belajar_flutter/Tugas_7/soal_no_5.dart';
+import 'package:belajar_flutter/Tugas_7_8/Soal_no_1.dart';
+import 'package:belajar_flutter/Tugas_7_8/Soal_no_2.dart';
+import 'package:belajar_flutter/Tugas_7_8/Soal_no_3.dart';
+import 'package:belajar_flutter/Tugas_7_8/Soal_no_4.dart';
+import 'package:belajar_flutter/Tugas_7_8/soal_no_5.dart';
 import 'package:flutter/material.dart';
 
 class Drawerpage extends StatefulWidget {

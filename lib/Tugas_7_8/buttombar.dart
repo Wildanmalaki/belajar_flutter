@@ -1,5 +1,5 @@
-import 'package:belajar_flutter/Tugas_7/drawerpage.dart';
-import 'package:belajar_flutter/Tugas_7/tentangaplikasi.dart';
+import 'package:belajar_flutter/Tugas_7_8/drawerpage.dart';
+import 'package:belajar_flutter/Tugas_7_8/tentangaplikasi.dart';
 import 'package:flutter/material.dart';
 
 class ButtomBar extends StatefulWidget {
