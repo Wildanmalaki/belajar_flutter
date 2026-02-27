@@ -1,4 +1,5 @@
 import 'package:belajar_flutter/Tugas_10/login_page_tugas10.dart';
+import 'package:belajar_flutter/Tugas_10/splashscreen.dart';
 import 'package:belajar_flutter/Tugas_4/homePage.dart';
 import 'package:belajar_flutter/Tugas_6_FlutterB5/login_page.dart';
 import 'package:belajar_flutter/Tugas_6_FlutterB5/startPage.dart';
@@ -46,7 +47,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home : loginTugas10()
+      home : SplashScreenTugas10()
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
