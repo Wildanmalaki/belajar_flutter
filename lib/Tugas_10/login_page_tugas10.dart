@@ -93,11 +93,11 @@ class _LoginPageTugasBaruState extends State<LoginPageTugas10> {
                     password: passwordController.text,
                   );
                   if (login != null) {
-                    Prefererencehandler().storingIslogin(true);
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(content: Text("Login Berhasil")));
-                      await Future.delayed(const Duration(seconds: 2));
-                      context.push(drawer)
+                    // Prefererencehandler().storingIslogin(true);
+                    // ScaffoldMessenger.of(context).showSnackBar(
+                    //   const SnackBar(content: Text("Login Berhasil")));
+                    //   await Future.delayed(const Duration(seconds: 2));
+                    //   context.push(drawer)
                   }
                     
                   //   context,

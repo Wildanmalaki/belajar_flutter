@@ -12,6 +12,7 @@ import 'package:belajar_flutter/Tugas_7_8/drawerpage.dart';
 import 'package:belajar_flutter/Tugas_7_8/soal_no_5.dart';
 import 'package:belajar_flutter/Tugas_9/List.dart';
 import 'package:belajar_flutter/Tugas_9/buttomnavbar.dart';
+import 'package:belajar_flutter/tugas%2011-12/view/splash.dart';
 import 'package:belajar_flutter/tugas_3/Homepage2.dart';
 import 'package:belajar_flutter/tugas_3/homePage.dart';
 import 'package:flutter/material.dart';
@@ -47,7 +48,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home : SplashScreenTugas10()
+      home : SplashScreenTugas11()
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
