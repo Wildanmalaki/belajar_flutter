@@ -1,20 +1,4 @@
-import 'package:belajar_flutter/Tugas_10/login_page_tugas10.dart';
-import 'package:belajar_flutter/Tugas_10/splashscreen.dart';
-import 'package:belajar_flutter/Tugas_4/homePage.dart';
-import 'package:belajar_flutter/Tugas_6_FlutterB5/login_page.dart';
-import 'package:belajar_flutter/Tugas_6_FlutterB5/startPage.dart';
-import 'package:belajar_flutter/Tugas_7_8/Soal_no_1.dart';
-import 'package:belajar_flutter/Tugas_7_8/Soal_no_2.dart';
-import 'package:belajar_flutter/Tugas_7_8/Soal_no_3.dart';
-import 'package:belajar_flutter/Tugas_7_8/Soal_no_4.dart';
-import 'package:belajar_flutter/Tugas_7_8/buttombar.dart';
-import 'package:belajar_flutter/Tugas_7_8/drawerpage.dart';
-import 'package:belajar_flutter/Tugas_7_8/soal_no_5.dart';
-import 'package:belajar_flutter/Tugas_9/List.dart';
-import 'package:belajar_flutter/Tugas_9/buttomnavbar.dart';
-import 'package:belajar_flutter/tugas%2011-12/view/splash.dart';
-import 'package:belajar_flutter/tugas_3/Homepage2.dart';
-import 'package:belajar_flutter/tugas_3/homePage.dart';
+import 'package:belajar_flutter/tugas_3/tugas3.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -48,7 +32,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home : SplashScreenTugas11()
+      home : Tugas3ppkd()
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }

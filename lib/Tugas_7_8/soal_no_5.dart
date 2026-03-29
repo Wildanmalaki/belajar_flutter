@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 
 class Soalno5 extends StatefulWidget {
   const Soalno5({super.key});

@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:belajar_flutter/Tugas_10/homepagetgs10.dart';
 
 class LoginPageTugas11 extends StatefulWidget {
-  LoginPageTugas11({super.key});
+  const LoginPageTugas11({super.key});
 
   @override
   State<LoginPageTugas11> createState() => _LoginPageTugasBaruState();

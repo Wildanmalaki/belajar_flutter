@@ -68,11 +68,11 @@ class _PendaftaranUserState extends State<PendaftaranUser> {
           ),
         ),
         bottom: PreferredSize(
+          preferredSize: Size.fromHeight(1.0),
           child: Container(
             color: Colors.black,
             height: 1.0,
           ),
-          preferredSize: Size.fromHeight(1.0),
         ),
       ),
       body: Padding(padding: EdgeInsets.all(25),

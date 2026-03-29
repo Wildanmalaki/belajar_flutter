@@ -1,4 +1,3 @@
-import 'package:belajar_flutter/Tugas_9/data_lapangan.dart';
 import 'package:belajar_flutter/tugas%2011-12/database/sqflite.dart';
 import 'package:belajar_flutter/tugas%2011-12/models/lapanganmodel.dart';
 
