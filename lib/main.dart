@@ -1,3 +1,4 @@
+import 'package:belajar_flutter/Tugas%204/tugas4.dart';
 import 'package:belajar_flutter/tugas_3/tugas3.dart';
 import 'package:flutter/material.dart';
 
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home : Tugas3ppkd()
+      home : Tugas4ppkd()
       //home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
