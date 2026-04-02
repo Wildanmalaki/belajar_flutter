@@ -1,7 +1,4 @@
-import 'package:belajar_flutter/Tugas%204/tugas4.dart';
-import 'package:belajar_flutter/tugas%2014/views/homepage.dart';
-import 'package:belajar_flutter/tugas%2014/views/tugas_14_views.dart';
-import 'package:belajar_flutter/tugas_3/tugas3.dart';
+import 'package:belajar_flutter/tugas%2015/views/tugas_15_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,31 +8,38 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    final colorScheme = ColorScheme.fromSeed(
+      seedColor: const Color(0xFF0F766E),
+      brightness: Brightness.light,
+    );
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Tugas 15 CRUD API',
       theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // TRY THIS: Try running your application with "flutter run". You'll see
-        // the application has a purple toolbar. Then, without quitting the app,
-        // try changing the seedColor in the colorScheme below to Colors.green
-        // and then invoke "hot reload" (save your changes or press the "hot
-        // reload" button in a Flutter-supported IDE, or press "r" if you used
-        // the command line to start the app).
-        //
-        // Notice that the counter didn't reset back to zero; the application
-        // state is not lost during the reload. To reset the state, use hot
-        // restart instead.
-        //
-        // This works for code too, not just values: Most code changes can be
-        // tested with just a hot reload.
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: colorScheme,
+        scaffoldBackgroundColor: const Color(0xFFF8FAFC),
+        useMaterial3: true,
+        appBarTheme: AppBarTheme(
+          centerTitle: true,
+          elevation: 0,
+          backgroundColor: Colors.transparent,
+          foregroundColor: colorScheme.onSurface,
+        ),
+        cardTheme: CardThemeData(
+          color: Colors.white,
+          elevation: 0,
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
+        ),
+        inputDecorationTheme: InputDecorationTheme(
+          contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
+          labelStyle: const TextStyle(color: Color(0xFF475569)),
+          hintStyle: const TextStyle(color: Color(0xFF94A3B8)),
+        ),
       ),
-      home: homePageTugas14(),
+      home: const Tugas15Page(),
     );
   }
 }
